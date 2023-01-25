@@ -14,10 +14,6 @@ export default {
 
 <style scoped>
 #vueFooter {
-  /* Fixar footer no fim da página */
-  position: fixed;
-  bottom: 0;
-  width: 100%;
   height: 200px;
   background-color: #222;
   border-top: 4px solid #111;
@@ -25,5 +21,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  bottom: 0;
+  width: 100%;
 }
 </style>
