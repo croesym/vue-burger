@@ -6,9 +6,18 @@ O componente tem várias propriedades de dados, incluindo pão, carne e dados op
 
 O componente também possui vários métodos:
 
-getIngredients(): Este método busca dados de um terminal de servidor em "http://localhost:3000/ingredientes" e atribui os dados aos pães, carnes e propriedades de dados opcionais do componente.
-createBurger(e): Este método é chamado quando o formulário é enviado. Ele evita o comportamento padrão de envio de formulário e constrói um objeto com os dados do formulário. O objeto é então stringificado e enviado como o corpo de uma solicitação POST para um terminal de servidor em "http://localhost:3000/burgers" e a resposta é registrada no console. Por fim, os campos de entrada do formulário são limpos.
+**getIngredients()**: Este método busca dados de um terminal de servidor em "http://localhost:3000/ingredientes" e atribui os dados aos pães, carnes e propriedades de dados opcionais do componente.
+<br>
+
+**createBurger(e)**: Este método é chamado quando o formulário é enviado. Ele evita o comportamento padrão de envio de formulário e constrói um objeto com os dados do formulário. O objeto é então stringificado e enviado como o corpo de uma solicitação POST para um terminal de servidor em "http://localhost:3000/burgers" e a resposta é registrada no console. Por fim, os campos de entrada do formulário são limpos.
+<br>
+
 Este componente está usando a estrutura Vue.js, que usa uma sintaxe de modelo para definir o layout do componente e um bloco de script para definir o comportamento do componente. O modelo usa as diretivas do Vue, como v-model, v-for e @submit, para vincular propriedades de dados a elementos de formulário e ouvir o evento de envio do formulário.
+
+<br>
+
+![Vueburger](https://user-images.githubusercontent.com/87200550/214623352-f83ab583-3c62-4335-bf6c-944c7b5439e1.png)
+
 
 ## Recommended IDE Setup
 
