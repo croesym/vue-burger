@@ -79,25 +79,27 @@
   ],
   "burgers": [
     {
-      "nome": "Matheus Croesy",
-      "pao": "Italiano Branco",
-      "carne": "Alcatra",
+      "nome": "Joao",
+      "pao": "Parmesão e Orégano",
+      "carne": "Picanha",
       "opcionais": [
-        "Bacon"
+        "Cheddar",
+        "Tomate"
       ],
-      "status": "Solicitado",
-      "id": 1
+      "status": "Finalizado",
+      "id": 2
     },
     {
-      "nome": "Matheus Croesy",
+      "nome": "Carlos",
       "pao": "3 Queijos",
-      "carne": "Alcatra",
+      "carne": "Picanha",
       "opcionais": [
-        "Bacon",
-        "Cheddar"
+        "Cheddar",
+        "Tomate",
+        "Salame"
       ],
-      "status": "Solicitado",
-      "id": 2
+      "status": "Finalizado",
+      "id": 3
     }
   ]
 }
