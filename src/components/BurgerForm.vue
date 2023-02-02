@@ -207,4 +207,19 @@ select {
   background-color: transparent;
   color: #222;
 }
+
+@media only screen and (max-width: 767px) {
+  #burger-form {
+    max-width: 90%;
+  }
+
+  input,
+  select {
+    width: 100%;
+  }
+
+  .checkbox-container {
+    width: 100%;
+  }
+}
 </style>

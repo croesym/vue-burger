@@ -178,4 +178,62 @@ select {
   background-color: transparent;
   color: #222;
 }
+
+@media only screen and (max-width: 767px) {
+  /* Mobile Responsivo */
+  #burger-table-heading div,
+  .burger-table-row div {
+    width: 100%;
+  }
+
+  #burger-table-heading .order-id,
+  .burger-table-row .order-number {
+    width: 100%;
+  }
+
+  .burger-table-row {
+    flex-direction: column;
+  }
+
+  .burger-table-row div {
+    margin-bottom: 12px;
+  }
+
+  .burger-table-row div:last-child {
+    margin-bottom: 0;
+  }
+
+  .burger-table-row ul {
+    margin: 0;
+  }
+
+  .burger-table-row ul li {
+    margin-bottom: 6px;
+  }
+
+  .burger-table-row ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  .delete-btn {
+    width: 100%;
+  }
+
+  .status {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .status option {
+    padding: 12px;
+  }
+
+  .status option:last-child {
+    margin-bottom: 0;
+  }
+
+  .status option:first-child {
+    padding: 12px 12px 12px 0;
+  }
+}
 </style>
