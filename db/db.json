@@ -79,27 +79,14 @@
   ],
   "burgers": [
     {
-      "nome": "Joao",
-      "pao": "Parmesão e Orégano",
-      "carne": "Picanha",
-      "opcionais": [
-        "Cheddar",
-        "Tomate"
-      ],
-      "status": "Finalizado",
-      "id": 2
-    },
-    {
-      "nome": "Carlos",
+      "nome": "Matheus Croesy",
       "pao": "3 Queijos",
-      "carne": "Picanha",
+      "carne": "Alcatra",
       "opcionais": [
-        "Cheddar",
-        "Tomate",
-        "Salame"
+        "Cebola roxa"
       ],
-      "status": "Finalizado",
-      "id": 3
+      "status": "Solicitado",
+      "id": 1
     }
   ]
 }
